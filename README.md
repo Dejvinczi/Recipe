@@ -8,6 +8,8 @@ This project is a Recipe Manager built with Django and Django REST Framework. It
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
+- [API Documentation](#api-documentation)
+
 ## Features
 - **User registration**: API for creating new system users for authentication purposes. 
 - **Recipes management**: Authorised users of the system can manage (view, create, edit, delete) recipes. . 
@@ -55,3 +57,9 @@ This project is a Recipe Manager built with Django and Django REST Framework. It
     ```bash
     docker-compose up
     ```
+
+## API Documentation
+The API documentation is available at:<br /> 
+**http://127.0.0.1:8000/api/docs/#/**<br />
+it is also possible to download the schema at:<br />
+**http://127.0.0.1:8000/api/schema/**.
